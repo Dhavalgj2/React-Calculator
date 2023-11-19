@@ -1,11 +1,12 @@
-import { useState } from "react";
-
 import "./App.css";
+import Calculator from "./Components/Calculator.jsx";
 
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <Calculator />
+      </div>
     </>
   );
 }
